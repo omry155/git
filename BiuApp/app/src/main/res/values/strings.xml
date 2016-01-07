@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ex4</string>
+
+    <string name="splash_1">Load Text</string>
+    <string name="splash_2">Load Picture</string>
+    <string name="splash_3">Load Map</string>
+    <string name="splash_4">Load Data</string>
+    <string name="splash_5">Actually Do Nothing</string>
+
+    <string name="setting1">On UpDate Speed (seconds)</string>
+    <string name="setting2">Off UpDate Speed (minutes)</string>
+    <string name="setting3">IP Address</string>
+    <string name="setting4">IP Address List</string>
+    <string name="setting5">Channels List</string>
+    <string name="setting6">Refresh Lists</string>
+    <string name="settinghint">wish you could...</string>
+    <string name="default_on_speed">10</string>
+    <string name="default_off_speed">5</string>
+    <string name="defaultIP">"192.168.43.151"</string>
+    <string name="commit_btn_setting">Commit speed</string>
+    <string name="refresh_btn_setting">Refresh</string>
+    <string name="dlt_frnd_setting">Delete Memory</string>
+    <string name="dlt_msgs_setting">Delete Messages</string>
+    <string name="commit_server_setting">Commit server</string>
+    <string name="commit_channel_setting">Commit Channel</string>
+
+
+    <string name="menu_friends">Friend List</string>
+    <string name="menu_addfriend">Add a friend</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_update">UpDate</string>
+    <string name="menu_home">Go Home</string>
+
+    <string name="chat_message">message</string>
+    <string name="chat_send">send</string>
+
+    <string name="main">main activity title</string>
+    <string name="sweep">Swipe Here!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_button">Menu</string>
+    <string name="back_btn">Back</string>
+
+    <string name="name">name</string>
+    <string name="id">id</string>
+    <string name="icon">icon</string>
+    <string name="add">Add</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+</resources>

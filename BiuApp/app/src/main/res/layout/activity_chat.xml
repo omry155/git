@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biu.ap2.winder.ex4.ChatActivity"
+    android:orientation="vertical"
+    android:background="@color/feed_bg">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="5" android:id="@+id/chat_message_screen">
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/send_action"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/message_to_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:hint="@string/chat_message"
+            android:textSize="18dp"
+            android:layout_weight="4"
+            android:padding="15dp"/>
+        <Button
+            android:id="@+id/chat_sendmessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_send"
+            android:padding="5dp"
+            android:background="#ff5774b5"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

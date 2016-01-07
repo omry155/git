@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">תרגיל 4</string>
+
+    <string name="splash_1">טוען טקטס</string>
+    <string name="splash_2">טוען תמונות</string>
+    <string name="splash_3">טוען מפה</string>
+    <string name="splash_4">טוען מידע</string>
+    <string name="splash_5">באמת לא עשה כלום...</string>
+
+    <string name="setting1">מהירות</string>
+    <string name="setting2">רזולוציה</string>
+    <string name="setting3">דיוק</string>
+    <string name="settinghint">היית רוצה...</string>
+
+    <string name="menu_friends">רשימת חברים</string>
+    <string name="menu_addfriend">הוסף חבר</string>
+    <string name="menu_setting">הגדרות</string>
+
+    <string name="chat_message">הודעה</string>
+    <string name="chat_send">שלח</string>
+
+    <string name="main">כותרת של הפעילות הראשית</string>
+    <string name="sweep">החלק פה</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="menu_button">תפריט</string>
+    <string name="back_btn">חזור</string>
+
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="status">מצב</string>
+    <string name="add">הוסף</string>
+
+    <string name="title_activity_maps">פעילות מפה</string>
+    <string name="title_activity_friends">פעילות חברים</string>
+    <string name="title_activity_add_friend">פעילות הוספת חבר</string>
+    <string name="title_activity_main">פעילות ראשית</string>
+    <string name="title_activity_setting">פעילות הגדרות</string>
+    <string name="title_activity_chat">פעילות שיחה</string>
+    <string name="title_activity_splash">פעילות פתיחה</string>
+</resources>

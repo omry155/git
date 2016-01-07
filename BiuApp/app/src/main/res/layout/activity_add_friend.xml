@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradient_start"
+    tools:context="com.biu.ap2.winder.ex4.AddFriendActivity">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/addfriend_imgLogo"
+            android:padding="10dp"
+            android:src="@drawable/addfriendsymbol" />
+
+        <Spinner android:id="@+id/addfriend_pics" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+            android:layout_below="@+id/addfriend_imgLogo" />
+        <EditText
+            android:id="@+id/addfriend_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:layout_below="@+id/addfriend_pics"
+            android:hint="@string/name"
+            android:textSize="18dp"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/addfriend_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addfriend_name"
+            android:background="@drawable/textbox"
+            android:hint="@string/id"
+            android:textSize="18dp"
+            android:padding="10dp" />
+
+
+
+        <Button
+            android:id="@+id/addfriend_addbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addfriend_id"
+            android:text="@string/add"
+            android:padding="5dp"
+            android:background="#ff5774b5"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

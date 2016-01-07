@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.biu.ap2.winder.ex4.MapsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/friendsFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </RelativeLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="0dp"
+        android:layout_height="match_parent" android:id="@+id/map"
+        tools:context="com.biu.ap2.winder.ex4.MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_weight="2">
+
+        <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:background="@drawable/post_corner"
+        android:text="@string/menu_button"
+        android:id="@+id/menu_button"
+        android:layout_gravity="right|top" />
+
+    </fragment>
+    </LinearLayout>
+
+    <FrameLayout
+    android:id="@+id/menuFragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    </FrameLayout>
+
+
+</FrameLayout>

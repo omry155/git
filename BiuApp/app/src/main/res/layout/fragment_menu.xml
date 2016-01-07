@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" tools:context="com.biu.ap2.winder.ex4.MenuFragment"
+    android:background="#aa444888">
+
+    <ListView
+        android:id="@+id/lstMenu"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#f2f2f2">
+    </ListView>
+
+</FrameLayout>
